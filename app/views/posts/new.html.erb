@@ -1,0 +1,22 @@
+<h1>Novo Post</h1>
+
+<%= form_with model: @post, local: true do |f| %>
+  <p>
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </p>
+
+  <p>
+    <%= f.label :bio %><br>
+    <%= f.text_area :bio %>
+  </p>
+
+  <p>
+    <%= f.label :text %><br>
+    <%= f.text_area :text %>
+  </p>
+
+  <p>
+    <%= f.submit "Criar Post" %>
+  </p>
+<% end %>

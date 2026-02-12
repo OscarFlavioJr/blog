@@ -1,0 +1,11 @@
+title: 
+
+Bem vindos ao meu primeiro post do meu primeiro Blog
+
+bio: 
+
+Talvez um pouco fora de época e atrasado, mas antes tarde do que nunca.
+
+text:
+
+Este é um Blog pessoal e que trata de assuntos Tech ou relacionados à tecnologia e meu desenvolvimento como profissional da área, pra quem não me conhece (Que é praticamente todo mundo), me chamo Oscar Flávio, tenho atualmente 21 anos de idade e estou no meu primeiro ano de carreira sendo Desenvolvedor FullStack. Este Blog deve cobrir boa parte dos meus problemas que enfrentarei na carreira para que futuramente sirva como um Backup do meu cérebro por inteiro. Vocês não devem esperar pra ver conteúdo patrocinado nem muita filtragem de ideias, a ideia é ser suscinto e rápido. Sem conteúdos gerados por IA também, inclusive, o próximo Post é já sobre isso. Espero que gostem, esta é a primeira versão de um projeto que espero que cresça bastante.

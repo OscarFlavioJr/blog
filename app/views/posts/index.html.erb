@@ -1,0 +1,11 @@
+<h1>Todos os Posts</h1>
+
+<div class="posts">
+  <% @posts.each do |post| %>
+    <div class="post-card">
+      <h2><%= link_to post.title, post_path(post) %></h2>
+      <p><%= post.bio %></p>
+      <small>Criado em <%= post.created_at.strftime("%d/%m/%Y") %> por <%= post.user&.name %></small>
+    </div>
+  <% end %>
+</div>
