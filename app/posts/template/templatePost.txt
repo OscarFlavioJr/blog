@@ -1,0 +1,20 @@
+require 'front_matter_parser'
+
+base_path = Rails.root.join("app/posts/2026/feb")
+
+Dir.glob("#{base_path}/*.md").each do |file_path|
+  parsed = FrontMatterParser::Parser.parse_file(file_path)
+
+  title = parsed.front_matter["title"]
+  bio   = parsed.front_matter["bio"]
+  text = parsed.content
+
+  Post.create!(
+    title: title,
+    bio: bio,
+    text: text,
+    user_id: 1
+  )
+
+  puts "Criado #{title}"
+end

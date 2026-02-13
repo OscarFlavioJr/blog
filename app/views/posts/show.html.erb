@@ -1,3 +1,8 @@
 <h1><%= @post.title %></h1>
-<p><%= @post.text %></p>
-<small>Criado em <%= @post.created_at.strftime("%d/%m/%Y") %> por <%= @post.user&.name %></small>
+<p class="bio"><%= @post.bio %></p>
+
+<hr>
+
+<div class="content">
+  <%= @post.rendered_text %>
+</div>

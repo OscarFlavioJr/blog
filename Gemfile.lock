@@ -118,6 +118,7 @@ GEM
       tzinfo
     ffi (1.17.3-x64-mingw-ucrt)
     ffi (1.17.3-x86_64-linux-gnu)
+    front_matter_parser (1.0.1)
     fugit (1.12.1)
       et-orbi (~> 1.4)
       raabro (~> 1.4)
@@ -258,6 +259,7 @@ GEM
       erb
       psych (>= 4.0.0)
       tsort
+    redcarpet (3.6.1)
     regexp_parser (2.11.3)
     reline (0.6.3)
       io-console (~> 0.5)
@@ -377,6 +379,7 @@ DEPENDENCIES
   capybara
   debug
   devise
+  front_matter_parser
   image_processing (~> 1.2)
   importmap-rails
   jbuilder
@@ -384,6 +387,7 @@ DEPENDENCIES
   propshaft
   puma (>= 5.0)
   rails (~> 8.0.4)
+  redcarpet
   rubocop-rails-omakase
   selenium-webdriver
   solid_cable
